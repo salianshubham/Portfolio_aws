@@ -1,0 +1,145 @@
+.aboutMainDiv {
+    height: 100vh;
+    width: 100vw;
+    background-color: #0f1630;
+    display: flex;
+}
+
+
+
+.aboutMe_discription_Div {
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+
+}
+
+.aboutMe_Content {
+    width: 40vw;
+    height: 40vh;
+}
+
+.AboutmeHeading {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2em;
+}
+
+.aboutMe_HireMe_Button {
+    background: linear-gradient(to right, rgb(79, 153, 215), rgb(73, 59, 194));
+    color: white;
+    height: 50px;
+    width: 10vw;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.aboutMe_Resume_Button {
+    color: white;
+    height: 50px;
+    width: 10vw;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 20px;
+    background-color: #0f1630;
+    border: 2px solid #393e9c;
+}
+
+.imageDiv_About {
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imageDiv_About_square {
+    height: 50vh;
+    width: 22vw;
+    border: 15px solid #4fb7dc;
+    border-radius: 15px;
+}
+
+.shubhamImage_AboutMe {
+    position: absolute;
+    left: 22vh;
+    top: 120vh;
+    z-index: 1;
+    background-color: bisque;
+    height: 50vh;
+    border-radius: 15px;
+}
+
+
+@media screen and (max-width: 1100px) {
+    .aboutMainDiv {
+        display: block;
+    }
+
+    .imageDiv_About {
+        height: 50vh;
+        width: 100vw;
+
+    }
+
+    .imageDiv_About_square {
+        height: 40vh;
+        width: 75vw;
+        border: 10px solid aqua;
+
+    }
+
+    .shubhamImage_AboutMe {
+        position: absolute;
+        left: 3vh;
+        top: 103vh;
+        z-index: 1;
+        background-color: bisque;
+        height: 40vh;
+        width: 75vw;
+        border-radius: 15px;
+    }
+
+    .aboutMe_discription_Div {
+        height: 50vh;
+        width: 100vw;
+    }
+
+    .aboutMe_Content {
+        width: 100vw;
+        height: 45vh;
+        padding: 10px;
+    }
+
+    .AboutmeHeading {
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 1em;
+    }
+
+    .aboutMe_HireMe_Button {
+        background: linear-gradient(to right, rgb(79, 153, 215), rgb(73, 59, 194));
+        color: white;
+        height: 50px;
+        width: 30vw;
+        border-radius: 10px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .aboutMe_Resume_Button {
+        color: white;
+        height: 50px;
+        width: 30vw;
+        border-radius: 10px;
+        font-weight: bold;
+        cursor: pointer;
+        margin-left: 20px;
+        background-color: #0f1630;
+        border: 2px solid #393e9c;
+    }
+}

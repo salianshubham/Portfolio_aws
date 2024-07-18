@@ -1,0 +1,215 @@
+.contact_main_Div {
+    height: 60vh;
+    width: 100vw;
+    /* background: linear-gradient(to right,rgb(79,153,215),rgb(73,59,194));
+    border-radius: 100px; */
+    background-color: #0f1630;
+    display: flex;
+    justify-content: center;
+}
+
+.contactCurveDesign {
+    height: 50vh;
+    width: 100vw;
+    border-radius: 50px 50px 0 0px;
+    /* background: linear-gradient(to left, #4a33c2, #4e91d5); */
+}
+
+.contact_heading {
+    text-align: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contact_middle_part_div {
+    height: 35vh;
+    width: 100vw;
+    /* background-color: #0f1630; */
+    display: flex;
+}
+
+.contact_content {
+    height: 30vh;
+    width: 50vw;
+    /* background-color: #b8581d; */
+    display: flex;
+    justify-content: center;
+}
+
+.contact_fill_feails_outer_Div {
+    height: 30vh;
+    width: 50vw;
+    /* background-color: aqua; */
+}
+
+.contact_fill_details {
+    height: 30vh;
+    width: 50vw;
+    /* background-color: #997d6b; */
+    display: flex;
+    justify-content: center;
+}
+
+.contact_content_innerDIv {
+    height: 30vh;
+    width: 25vw;
+    /* background-color: #c43ea7; */
+}
+
+.drop_me_a_message {
+    margin: 0;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cotact_mobile {
+    display: flex;
+}
+
+.cotact_email {
+    display: flex;
+}
+
+.cotact_location {
+    display: flex;
+}
+
+.cotact_mobile_icon_div {
+    height: 50px;
+    width: 50px;
+    background: linear-gradient(to right, #4a33c2, #1b82ea);
+    border-radius: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cotact_email_icon_div {
+    height: 50px;
+    width: 50px;
+    background: linear-gradient(to right, #4a33c2, #1b82ea);
+    border-radius: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cotact_location_icon_div {
+    height: 50px;
+    width: 50px;
+    background: linear-gradient(to right, #4a33c2, #1b82ea);
+    border-radius: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact_moble_h3 {
+    margin-left: 20px;
+    color: white;
+}
+
+.contact_fill_feails_inner_Div {
+    height: 30vh;
+    width: 25vw;
+    background: linear-gradient(to right, #4a33c2, #1b82ea);
+    border-radius: 10px;
+}
+
+
+.contact_footer {
+    height: 10vh;
+    width: 100vw;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+}
+
+.cotact_linkedIn_icon_div {
+    height: 50px;
+    width: 50px;
+    background: linear-gradient(to right, #4a33c2, #1b82ea);
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.contact_call_icon {
+    height: 25px;
+    width: 25px;
+}
+
+.linkedIcon {
+    height: 25px;
+    width: 25px;
+}
+
+.githubicon {
+    height: 25px;
+    width: 25px;
+}
+
+.instagramIcon {
+    height: 25px;
+    width: 25px;
+}
+
+@media screen and (max-width: 1100px) {
+
+    .contact_main_Div {
+        height: 85vh;
+        width: 100vw;
+    }
+
+    .contactCurveDesign {
+        height: 85vh;
+        width: 100vw;
+        border-radius: 50px 50px 0 0px;
+
+    }
+
+    .contact_middle_part_div {
+        height: 63vh;
+        width: 100vw;
+
+        display: block;
+    }
+
+    .contact_content {
+        height: 30vh;
+        width: 100vw;
+
+        display: block;
+
+    }
+
+    .contact_fill_details {
+        height: 30vh;
+        width: 100vw;
+
+    }
+
+    .contact_content_innerDIv {
+        height: 30vh;
+        width: 88vw;
+
+        margin-left: 40px;
+    }
+
+    .contact_moble_h3 {
+        margin-top: 25px;
+        font-size: 15px;
+    }
+
+    .contact_fill_feails_inner_Div {
+        height: 30vh;
+        width: 100vw;
+        background-color: #4a33c2;
+    }
+}

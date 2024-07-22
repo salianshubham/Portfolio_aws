@@ -14,7 +14,7 @@ const AboutMe = () => {
                 <div className='aboutMe_discription_Div'>
                     <div className='aboutMe_Content'>
                         <h3 className='AboutmeHeading'>ABOUT ME</h3>
-                        <p className='AboutmeHeading'>
+                        <p className='AboutmeHeading_paragraph'>
                             Highly skilled and motivated Software Engineer with over 2 years of experience in software development,
                             specializing in backend development, microservices architecture, and full-stack development. Proven
                             track record of leading projects from conception through deployment using Agile methodologies. Adept
@@ -23,7 +23,7 @@ const AboutMe = () => {
                             innovation.
                         </p>
                         <button className='aboutMe_HireMe_Button'>HIRE ME</button>
-                        <button className='aboutMe_Resume_Button' onClick={() => window.location.href="https://drive.google.com/file/d/1SNa7aOmAjqjeAne7cMdfZSYZtk_Kb5DU/view?usp=sharing"}>RESUME</button>
+                        <button className='aboutMe_Resume_Button' onClick={() => window.location.href = "https://drive.google.com/file/d/1xCv-G_YArJkTyA4LbI18xjbM65sto4zl/view?usp=sharing"}>RESUME</button>
                     </div>
                 </div>
             </div>

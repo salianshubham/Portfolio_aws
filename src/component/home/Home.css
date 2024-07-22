@@ -10,13 +10,12 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    /* background-color: aqua; */
 }
 
 .menu {
     display: flex;
     align-items: center;
-    gap: 8rem;
+    gap: 4rem;
 }
 
 .menu div {

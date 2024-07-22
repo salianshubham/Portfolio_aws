@@ -62,8 +62,8 @@
 
 .project1Image {
     position: absolute;
-    top: 206vh;
-    left: 53vw;
+    top: 405vh;
+    left: 52vw;
     z-index: 1;
     height: 47vh;
     width: 25vw;
@@ -103,7 +103,7 @@
 
 .project2Image {
     position: absolute;
-    top: 270vh;
+    top: 470vh;
     left: 14vw;
     z-index: 1;
     height: 47vh;
@@ -156,7 +156,7 @@
 
     .project1Image {
         position: absolute;
-        top: 257vh;
+        top: 618vh;
         left: 11vw;
         z-index: 1;
         height: 47vh;
@@ -173,14 +173,13 @@
     .project2ImageDiv {
         height: 50vh;
         width: 100vw;
-
         display: flex;
         justify-content: center;
     }
 
     .project2Image {
         /* position: absolute; */
-        top: 321vh;
+        top: 683vh;
         left: 13vw;
         z-index: 1;
         height: 47vh;

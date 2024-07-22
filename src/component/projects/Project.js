@@ -14,7 +14,7 @@ const Project = () => {
                             <h2 className='project1Name'>PROJECT 1</h2>
                             <h1 className='project1NameH1'>Tasty-Choice</h1>
                             <p className='project1NameDiscription'> Developed a Tasty-Choice using React.js, CSS, HTML, Node.js, and MongoDB for an efficient and dynamic fully responsive web application.
-                                Hosted the portfolio's source code on GitHub at <a href='https://github.com/salianshubham/tasty-choice'>Gitgub</a> for version control and collaboration.
+                                Hosted the portfolio's source code on GitHub at <a href='https://github.com/salianshubham/tasty-choice'>GitHub</a> for version control and collaboration.
                                 Deployed the live version of the Tasty-Choice, accessible at https://tastychoice.netlify.app/ , showcasing practical application of the
                                 mentioned technologies.
                             </p>

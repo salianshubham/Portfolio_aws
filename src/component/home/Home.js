@@ -23,6 +23,7 @@ const Home = () => {
                     <div className={`menu ${isMenuOpen ? 'show' : ''}`}>
                         <div>HOME</div>
                         <div onClick={()=>scrollSection('ABOUT_ME')} >ABOUT ME</div>
+                        <div onClick={()=>scrollSection('EXPERIENCE')}>EXPERIENCE</div>
                         <div onClick={()=>scrollSection('PROJECTS')}>PROJECTS</div>
                         <div onClick={()=>scrollSection('SKILLS')}>SKILLS</div>
                         <button className='ContactButton' onClick={()=>scrollSection('CONTACT')}>CONTACT</button>
